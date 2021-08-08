@@ -1,0 +1,40 @@
+{
+  "name": "propertys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
+    "start": "tsc && mkdir -p dist/templates && cp -R src/templates/* dist/templates && nodemon --inspect dist",
+    "build": "npm run env && tsc && cp -R src/templates/* dist/templates ",
+    "build-dev": "tsc && mkdir -p dist/templates && cp -R src/templates/* dist/templates",
+    "build-stage": "tsc && mkdir -p dist/templates && cp -R src/templates/* dist/templates",
+    "build-prod": "tsc && mkdir -p dist/templates && cp -R src/templates/* dist/templates",
+    "env": "sync-dotenv --env .env --sample env.sample"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "busboy": "^0.3.1",
+    "class-validator": "^0.13.1",
+    "connect-busboy": "0.0.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "helmet": "^4.6.0",
+    "jm-ez-l10n": "^1.0.0",
+    "jm-ez-mysql": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "nodemailer": "^6.6.3",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.11",
+    "sync-dotenv": "^2.6.2"
+  },
+  "license": "ISC"
+}

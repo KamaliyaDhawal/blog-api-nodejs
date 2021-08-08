@@ -1,0 +1,23 @@
+{
+  "ERR_INTERNAL_SERVER": "Internal Server Error.",
+  "ERR_MINI_LENGTH": "{{field}} must be {{min}} character long.",
+  "ERR_MAX_LENGTH": "{{field}} can't be {{max}} character long.",
+  "ERR_PASSWORD_VALIDATION": "Password is not match as per password policy.",
+  "ERR_CPASSWORD_VALIDATION": "Password and confirm password are not match.",
+  "ERR_DUPLICATE_EMAIL": "Email is already registered.",
+  "SUCCESS_SIGNUP": "Signup done successfully .",
+  "SUCCESS_SIGNIN": "Welcome {{name}}",
+  "MAIL_SUB_SIGNUP": "Signup successfully.",
+  "ERR_EMAIL_NOT_FOUND": "Email is not registered.",
+  "ERR_INVALID_CREDENTIALS": "Invalid credantials",
+  "ERR_UNAUTH": "You are un-authorized",
+  "SUCCESS_ADDED": "{{name}} added successfully .",
+  "SUCCESS_GET": "{{name}} get successfully .",
+  "ERR_TOPIC_DUPLICATE": "Topic {{name}} already added.",
+  "NOT_AN_IMAGE": "{{file}} is not an image.",
+  "ERR_UN_TOPIC": "Can't create post on other users topic",
+  "ERR_UNAVAILABLE": "Topic is not available",
+  "ERR_CPASSWORD_NOT_MATCH": "Password and confirm password are not matched .",
+  "ERR_FILE_NOT_FOUND": "File not found",
+  "ERR_URL_NOT_FOUND": "ERR_URL_NOT_FOUND"
+}
